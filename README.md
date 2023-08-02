@@ -5,7 +5,8 @@
 **Status**: Active 
 
 ### About papif
-papif is an API endpoint fuzzer, once a wordlist has been selected it'll send a request to each possible endpoint using various request methods (POST, GET, PUT and DELETE) and then look for differences within the responses.
+Papif serves as an API endpoint fuzzer that operates by selecting a wordlist and subsequently sending requests to all potential endpoints. These requests utilize different methods, including POST, GET, PUT, and DELETE. The tool then analyzes the responses to identify any variations or discrepancies.
+
 
 ### Usage Example
 `console[~/papif/]: python3 papif.py -u https://api.target.com/endpoint/ -w /opt/wordlists/api.txt -m get,post -dl 2 -ms parameter`
