@@ -8,7 +8,7 @@
 papif is an API endpoint fuzzer, once a wordlist has been selected it'll send a request to each possible endpoint using various request methods (POST, GET, PUT and DELETE) and then look for differences within the responses.
 
 ### Usage Example
-`console[~/papif/]: python3 papif.py -u https://api.target.com/api/ -w /opt/wordlists/api-endpoints.txt -m get,post -dl 2 -ms parameter`
+`console[~/papif/]: python3 papif.py -u https://api.target.com/endpoint/ -w /opt/wordlists/api.txt -m get,post -dl 2 -ms parameter`
 
 
 ### Help Output
